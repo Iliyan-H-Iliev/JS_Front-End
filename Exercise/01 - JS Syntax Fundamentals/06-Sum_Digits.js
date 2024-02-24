@@ -5,7 +5,6 @@ function solve(num) {
     for (let i = 0; i < numString.length; i++) {
         numSum += Number(numString[i])
     }
-
     console.log(numSum)
 }
 
