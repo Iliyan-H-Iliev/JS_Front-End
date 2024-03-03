@@ -10,6 +10,7 @@ function solve(text, searchedWord) {
     console.log(count)
 }
 
+
 solve('This is a word and it also is a sentence',
 'is'
 )
