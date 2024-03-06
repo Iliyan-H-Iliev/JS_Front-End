@@ -16,7 +16,5 @@ function solve(array) {
 }
 
 solve(['Acer','login','go','let me in','recA'])
-
 solve(['sunny','rainy','cloudy','sunny','not sunny'])
-
 solve(['momo','omom'])

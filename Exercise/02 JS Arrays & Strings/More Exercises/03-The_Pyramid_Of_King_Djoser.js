@@ -38,4 +38,5 @@ function solve(base, increment) {
     console.log(`Final pyramid height: ${pyramidHeight}`)
 }
 
+
 solve(11, 0.75)
