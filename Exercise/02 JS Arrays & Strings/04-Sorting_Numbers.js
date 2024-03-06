@@ -11,7 +11,6 @@ function solve(numbers) {
         newSortedArray.push(numbers.shift())
     }
 
-    // console.log(newSortedArray)
     return newSortedArray
 }
 
