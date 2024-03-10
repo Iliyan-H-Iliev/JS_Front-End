@@ -4,7 +4,19 @@ function solve(number) {
         return `[${"%".repeat(percent)}${'.'.repeat(10 - percent)}]`
     }
 
-    console.log(loadingBar(number))
+    function printingLoadingBar(number) {
+        let message = ''
+
+        if  (number === 100) {
+            message = `${number}% Complete!\n${loadingBar(number)}`
+        } else {
+            message = `${number}% ${loadingBar(number)}\nStill loading...`
+        }
+
+        return message
+    }
+
+    console.log(printingLoadingBar(number))
 }
 
-solve(20)
+solve(120)
