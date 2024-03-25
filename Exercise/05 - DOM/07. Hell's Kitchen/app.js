@@ -6,7 +6,6 @@ function solve() {
         let bestRestaurantElement = document.querySelector('#bestRestaurant p')
         let bestWorkersElement = document.querySelector('#workers p')
 
-
         let restaurants = []
         let input = JSON.parse(inputElement.value)
 
@@ -15,7 +14,6 @@ function solve() {
             let restaurantName = restaurantProp[0]
             let workers = restaurantProp[1].split(', ').map(x => x.split(' '))
             workers = workers.map(([worker, salary]) => [worker, Number(salary)])
-
 
             if (!restaurants.some(restaurant => restaurant.name === restaurantName)) {
                 restaurants.push({
