@@ -34,15 +34,15 @@ fetch('http://localhost:3030/jsonstore/collections/students')
 
 
 
-// fetch('http://localhost:3030/jsonstore/collections/students', {
-//     method: 'POST',
-//     headers: {
-//         'Content-Type': 'application/json'
-//     },
-//     body: JSON.stringify({firstName: 'Peter', lastName: 'Petrov', facultyNumber: '12345', grade: 6})
-// }).then(res => res.json())
-//     .then(data => console.log(data))
-//     .catch(err => console.error(err));
+fetch('http://localhost:3030/jsonstore/collections/students', {
+    method: 'POST',
+    headers: {
+        'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({firstName: 'Peter', lastName: 'Petrov', facultyNumber: '12345', grade: 6})
+}).then(res => res.json())
+    .then(data => console.log(data))
+    .catch(err => console.error(err));
 
 
 
