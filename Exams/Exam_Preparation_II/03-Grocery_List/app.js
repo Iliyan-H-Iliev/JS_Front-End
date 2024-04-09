@@ -1,4 +1,4 @@
-function solve1522() {
+function solve() {
     const GROCERY_URL = 'http://localhost:3030/jsonstore/grocery'
 
     const loadAllProductsBtn = document.getElementById('load-product')
@@ -101,4 +101,4 @@ function solve1522() {
     }
 }
 
-solve1522()
+solve()
